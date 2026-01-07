@@ -1,8 +1,13 @@
 # Building-a-Personality-Prediction-App-using-Machine-Learning-Streamlit
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://apps-personality-prediction.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
+
+## 🚀 Live Demo
+**Try the application here:** 👉 **[Personality Prediction Web App](https://apps-personality-prediction.streamlit.app/)**
+
+---
 
 ## 📌 Project Overview
 This project is an implementation of a machine learning classification model designed to predict a person's personality type—**Introvert** or **Extrovert**—based on their daily behavioral patterns.
@@ -29,7 +34,7 @@ The project followed a structured End-to-End Machine Learning pipeline:
     * Random Forest
     * XGBoost
 3.  **Evaluation:** Models were assessed based on Accuracy, Precision, Recall, and F1-Score.
-4.  **Deployment:** The best model was deployed via Streamlit.
+4.  **Deployment:** The best model was deployed via Streamlit Cloud.
 
 ## 🏆 Model Performance
 After extensive testing, **Support Vector Machine (SVM)** emerged as the best-performing model.
@@ -43,8 +48,9 @@ After extensive testing, **Support Vector Machine (SVM)** emerged as the best-pe
 
 > *These results demonstrate that daily social behaviors serve as strong predictors for distinguishing personality types.*
 
-## 🚀 How to Run Locally
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/username/repository-name.git](https://github.com/username/repository-name.git)
+## 🛠 Tech Stack
+* **Language:** Python
+* **Web Framework:** Streamlit
+* **Machine Learning:** Scikit-learn, XGBoost
+* **Data Processing:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
